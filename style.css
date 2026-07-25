@@ -62,12 +62,12 @@ margin: auto;
     background-color: rgb(211, 201, 10);
     cursor: pointer;
 }   
-/* Quando o usuário clicar ou der Tab na caixa de texto */
+
 #celsius:focus, #fahrenheit:focus, #kelvin:focus {
-  border-color: #2763da;       /* Muda a cor da borda (ex: vermelho do seu título) */
-  outline: none;               /* Remove a borda azul padrão dos navegadores */
-  box-shadow: 0 0 5px #0fb1a6;  /* Cria um brilho suave em volta */
-  background-color: #ffffff;   /* Pode mudar a cor de fundo do campo */
+  border-color: #2763da; 
+  outline: none;               
+  box-shadow: 0 0 5px #0fb1a6;  
+  background-color: #ffffff;   
   cursor: text;
 }
 
